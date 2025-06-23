@@ -160,3 +160,6 @@
     display: none;
   }
 }
+body{
+  background-image: url('BG.svg');
+}

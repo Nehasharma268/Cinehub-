@@ -1,16 +1,19 @@
 import React from 'react'
+import Search from './Components/Search'
 
 const App = () => {
   return (
     <main>
-       <div className='pattern'>
+       <div
+       className="pattern h-screen bg-cover bg-center"
+      style={{ backgroundImage: "url('/BG.svg')" }}>
         <div className='wrapper'>
         <header>
-          <img src="./hero-img.svg" alt="Hero Banner" />
-            <h1>Find <span className='text-gradient'>Movies </span>You'll Enjoy Wihout the Hassle</h1>
+          <img src="./hero-img.png" alt="Hero Banner" />
+            <h1>Explore <span className='text-gradient'>Movies</span> That Match Your Mood</h1>
         </header>
            
-           <p>Search</p>
+           <Search />
         </div>
        </div>
     </main>
